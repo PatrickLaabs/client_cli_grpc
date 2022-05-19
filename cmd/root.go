@@ -14,7 +14,7 @@ import (
 )
 
 var (
-	addr = flag.String("addr", "0.0.0.0:50051", "the address to connect to")
+	addr = flag.String("addr", "grpc.example.com:13000", "the address to connect to")
 )
 
 // rootCmd represents the base command when called without any subcommands
