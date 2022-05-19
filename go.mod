@@ -3,7 +3,7 @@ module github.com/PatrickLaabs/client_cli_grpc
 go 1.18
 
 require (
-	github.com/PatrickLaabs/grpc-qs v0.0.9
+	github.com/PatrickLaabs/grpc-qs v0.0.10
 	github.com/spf13/cobra v1.4.0
 	google.golang.org/grpc v1.46.2
 )
