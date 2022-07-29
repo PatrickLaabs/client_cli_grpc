@@ -10,12 +10,13 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"log"
+	"time"
+
 	pb "github.com/PatrickLaabs/grpc-qs/helloworld"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	"log"
-	"time"
 )
 
 const (
